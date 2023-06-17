@@ -5,7 +5,7 @@ namespace PHPExcel;
 class TxtFile
 {
 
-    public function open($file)
+    private function open($file)
     {
         return fopen($file, 'w');
     }
